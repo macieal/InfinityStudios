@@ -9,9 +9,10 @@ body{
 #obg{
     justify-content: center;
     display: flex;
-    margin: 80px auto;
+    margin: 30px auto;
 }
 button{
+    cursor: pointer;
     background-color: black;
     border-color: white;
     transition: 500ms;

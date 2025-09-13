@@ -6,13 +6,6 @@ body{
 	font-style: normal;
     color: white;
 }
-#MarGames{
-	border-radius: 20px;
-    transition-duration: 500ms;
-}
-#MarGames:hover{
-    border-radius: 40px;
-}
 #titlemargames{
     position: absolute;
     left: 10%;
