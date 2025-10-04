@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@keyframes entrada {
+	0%{
+		opacity: 0%;
+	}
+}
 body{
-	background: rgb(37, 37, 37);
+	background: linear-gradient(348deg,black,rgb(43, 43, 43));
 	color: white;
 	font-family: "Pixelify Sans", sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
+	animation: alternate;
+	animation-name: entrada;
+	animation-duration: 2s;
 }
 h1{
 	color: white;
@@ -53,4 +61,14 @@ button:hover{
 }
 #aviso{
 	color: red;
+}
+.dscord{
+	margin: 20px;
+}
+.yt{
+	margin-left: 120px;
+}
+#redesociais{
+	display: flex;
+	position: absolute;
 }
