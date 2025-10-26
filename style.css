@@ -27,11 +27,10 @@ p{
 #MarGames{
 	border-radius: 20px;
 }
-#titlemargames{
-	position: absolute;
-	left: 10%;
-	top: 3%;
-	color: white;
+#infinitytitle{
+	margin-top: 30px;
+	margin-left: 100px;
+	position: flex;
 }
 #subtext{
 	color: white;
@@ -54,6 +53,7 @@ button{
     padding: 15px 32px;
 	border-color: white;
 	font-family: "Pixelify Sans", sans-serif;
+	border-color: rgb(255, 255, 255);
 	font-optical-sizing: auto;
 	font-style: normal;
 }
@@ -61,7 +61,7 @@ button:hover{
 	font-size: 25px;
 	background-color: white;
 	color: black;
-	border-color: black;
+	border-color: rgb(0, 0, 0);
 }
 #aviso{
 	color: red;
@@ -91,4 +91,7 @@ button:hover{
 	display: flex;
 	position: absolute;
 	margin-top: 10%;
+}
+#Infinity{
+	margin-top: 120px;
 }

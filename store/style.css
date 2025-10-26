@@ -15,10 +15,13 @@ body{
     color: white;
     animation: forwards 2s entrada;
 }
-#titlemargames{
-    position: absolute;
-    left: 10%;
-    top: 3%;
+.Infinity{
+	display: flex;
+}
+#infinitytitle{
+	margin-top: 30px;
+	margin-left: 100px;
+	position: flex;
 }
 .app{
     background: none;
