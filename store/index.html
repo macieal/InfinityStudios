@@ -23,7 +23,6 @@
         <button id="slc">Store</button>
         <a href="./Aplicativos Oficiais/"><button>AppsOficiais</button></a>
     </div>
-    <!-- Adicione isso logo abaixo dos botões "Store" e "AppsOficiais" -->
 <button id="publicarBtn">📤 Publicar</button>
 <div id="janelaPublicar" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%);
 background:#1a1a1a; border:2px solid #333; padding:20px; border-radius:10px; z-index:999;">
@@ -66,17 +65,15 @@ enviar.onclick = async () => {
   if(res.ok) janela.style.display = 'none';
 };
 </script>
-<!-- Onde os apps publicados vão aparecer -->
 <div id="listaApps" style="margin-top:40px; display:flex; flex-wrap:wrap; gap:16px;"></div>
 
 <script>
-// Função pra carregar e mostrar os apps publicados
 async function carregarApps() {
   const res = await fetch('/api/apps');
   const apps = await res.json();
 
   const lista = document.getElementById('listaApps');
-  lista.innerHTML = ''; // limpa antes de renderizar
+  lista.innerHTML = '';
 
   apps.forEach(app => {
     const card = document.createElement('div');
@@ -99,10 +96,8 @@ async function carregarApps() {
   });
 }
 
-// Carrega os apps quando o site abrir
 carregarApps();
 
-// Recarrega lista após publicar novo app
 enviar.onclick = async () => {
   const nome = document.getElementById('nome').value.trim();
   const descricao = document.getElementById('descricao').value.trim();
@@ -124,7 +119,7 @@ enviar.onclick = async () => {
   alert(data.message);
   if(res.ok) {
     janela.style.display = 'none';
-    carregarApps(); // recarrega a lista pra aparecer o novo
+    carregarApps();
   }
 };
 </script>
