@@ -15,8 +15,15 @@ body{
     color: white;
     animation: forwards 2s entrada;
 }
+.Infinity{
+	display: flex;
+}
+#infinitytitle{
+	margin-top: 30px;
+	margin-left: 100px;
+	position: flex;
+}
 button{
-    margin: 0px;
 	font-size: 20px;
 	background-color: black;
 	border-radius: 10px;
@@ -43,20 +50,13 @@ button:hover{
 #slc{
     opacity: 50%;   
 }
-.Infinity{
-	display: flex;
-}
-#infinitytitle{
-	margin-top: 30px;
-	margin-left: 100px;
-	position: flex;
-}
 .app{
     background: none;
     color: rgb(32, 32, 32);
     transition: 500ms;
     width: 55%;
     cursor: cell;
+    margin-top: 5%;
 }
 .app:hover{
     background: rgb(53, 53, 53);
@@ -64,17 +64,15 @@ button:hover{
     border-radius: 20px;
 }
 .app-error{
+    margin-top: 5%;
     background: none;
     color: rgb(32, 32, 32);
     transition: 500ms;
     width: 55%;
-    cursor: cell;
+    cursor: no-drop;
 }
 .app-error:hover{
     background: rgb(255, 64, 64);
     color: white;
     border-radius: 20px;
-}
-#aviso{
-    color: red;
 }
