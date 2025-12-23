@@ -1,99 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
-@keyframes entrada {
-	0%{
-		opacity: 0%;
-		margin: 70%;
+	@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+	@keyframes entrada {
+		0%{
+			opacity: 0%;
+		}
+		100%{
+			opacity: 100%;
+		}
 	}
-	100%{
+	body{
+		background: linear-gradient(90deg, rgb(68, 68, 68), rgb(49, 49, 49));
+		font-family: "Pixelify Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+		color: white;
+		animation: alternate entrada 2s;
+	}
+	#InfinitySites{
+		margin-top: 100px;
+	}
+	h1{
+		color: white;
+	}
+	p{
+		color: white;
+	}
+	#subtext{
+		color: white;
+		opacity: 50%;
+	}
+	.display{
+		display: flex;
+		color: white;
+	}
+	button{
+		font-size: 20px;
+		background-color: rgb(43, 43, 43);
+		border-radius: 10px;
+		color: white;
+		cursor: pointer;
+		height: 80px;
+		width: 300px;
+		transition: 500ms;
+		box-shadow: 10px 28px 15px rgba(0, 0, 0, 0.1);
+		padding: 15px 32px;
+		border: none;
+		font-family: "Pixelify Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+	}
+	button:hover{
+		margin-top: -2px;
+		font-size: 25px;
+		background-color: white;
+		color: black;
+		border-color: rgb(0, 0, 0);
+	}
+	#InfinityIcon{
+		margin: 35px;
+		border-radius: 20px;
+	}
+	.discord{
+		position: absolute;
+		width: 70px;
+		color: aquamarine;
+		transition: 500ms;
+	}
+	.discord:hover{
+		border-radius: 20px;
+		background-color: rgb(0, 17, 90);
+	}
+	.yt{
+		margin-left: 80px;
+		width: 1%;
+		background-color: none;
+		transition: 500ms;
+	}
+	.yt:hover{
+		width: 70px;
+		border-radius: 20px;
+		background-color: rgb(65, 10, 10);
+	}
+	.redesociais{
+		display: flex;
+		position: absolute;
+		margin-top: 10%;
+	}
+	#infinitytitle{
+		margin-top: -130px;
+		text-align: center;
+		background-color: rgb(32, 32, 32);
+		padding: 21px;
+		border-radius: 15px;
+	}
+	#ads{
+		position: fixed;
 		opacity: 100%;
-		margin: 0%;
+		width: 0%;
+		height: 0%;
+		border: none;
 	}
-}
-body{
-	background: linear-gradient(90deg, rgb(85, 85, 85), rgb(49, 49, 49));
-    font-family: "Pixelify Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-    color: white;
-	animation: alternate entrada 2s;
-}
-h1{
-	color: white;
-}
-p{
-	color: white;
-}
-#MarGames{
-	border-radius: 20px;
-}
-#infinitytitle{
-	margin-top: 30px;
-	margin-left: 100px;
-	position: flex;
-}
-#infinitytitle2{
-	margin-top: -70px;
-}
-#subtext{
-	color: white;
-	opacity: 50%;
-}
-.display{
-	display: flex;
-	color: white;
-}
-button{
-	font-size: 20px;
-	background-color: rgb(43, 43, 43);
-	border-radius: 10px;
-	color: white;
-	cursor: pointer;
-	height: 80px;
-	width: 300px;
-	transition: 500ms;
-	box-shadow: 10px 28px 15px rgba(0, 0, 0, 0.1);
-    padding: 15px 32px;
-	border: none;
-	font-family: "Pixelify Sans", sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-}
-button:hover{
-	margin-top: -2px;
-	font-size: 25px;
-	background-color: white;
-	color: black;
-	border-color: rgb(0, 0, 0);
-}
-#aviso{
-	color: red;
-}
-.discord{
-	position: absolute;
-	width: 70px;
-	color: aquamarine;
-	transition: 500ms;
-}
-.discord:hover{
-	border-radius: 20px;
-	background-color: rgb(0, 17, 90);
-}
-.yt{
-	margin-left: 80px;
-	width: 1%;
-	background-color: none;
-	transition: 500ms;
-}
-.yt:hover{
-	width: 70px;
-	border-radius: 20px;
-	background-color: rgb(65, 10, 10);
-}
-.redesociais{
-	display: flex;
-	position: absolute;
-	margin-top: 10%;
-}
-#Infinity{
-	margin-top: 120px;
-}
