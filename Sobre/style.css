@@ -21,7 +21,7 @@
 		border: none;
 }
 	#infinitytitle{
-		margin-top: -115px;
+		margin-top: -79px;
 		text-align: center;
 		background-color: rgb(32, 32, 32);
 		padding: 21px;
@@ -30,7 +30,6 @@
 }
 	#InfinityIcon{
 		border-radius: 20px;
-		margin: 35px;
 		cursor: pointer;
 }
 	#Sobre{
